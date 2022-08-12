@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="132px" height="128px" viewBox="0 0 132 128" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Oval Copy 13</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="36.7992335%" cy="19.5532331%" fx="36.7992335%" fy="19.5532331%" r="90.6768286%" gradientTransform="translate(0.367992,0.195532),rotate(55.488466),scale(1.000000,1.032894),translate(-0.367992,-0.195532)" id="radialGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#D7DFEC" offset="61.5316942%"></stop>
+            <stop stop-color="#A7B4C3" offset="100%"></stop>
+        </radialGradient>
+        <circle id="path-2" cx="1615.30582" cy="547.305823" r="23.5"></circle>
+        <filter x="-93.6%" y="-93.6%" width="474.5%" height="457.4%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="50" dy="42" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="19" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0.271619897   0 0 0 0 0.496122056  0 0 0 0.73085118 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-54.3%" y="-54.3%" width="395.7%" height="378.7%" filterUnits="objectBoundingBox" id="filter-4">
+            <feGaussianBlur stdDeviation="6.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="38" dy="22" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.497814685 0" type="matrix" in="shadowInnerInner1" result="shadowMatrixInner1"></feColorMatrix>
+            <feGaussianBlur stdDeviation="8.5" in="SourceAlpha" result="shadowBlurInner2"></feGaussianBlur>
+            <feOffset dx="-5" dy="-9" in="shadowBlurInner2" result="shadowOffsetInner2"></feOffset>
+            <feComposite in="shadowOffsetInner2" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner2"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.411510043   0 0 0 0 0.467018616   0 0 0 0 0.632387908  0 0 0 0.402453016 0" type="matrix" in="shadowInnerInner2" result="shadowMatrixInner2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixInner1"></feMergeNode>
+                <feMergeNode in="shadowMatrixInner2"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页" transform="translate(-1591.000000, -523.000000)">
+            <g id="Oval-Copy-13" transform="translate(1615.305823, 547.305823) rotate(2.000000) translate(-1615.305823, -547.305823) ">
+                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                <use fill="url(#radialGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-2"></use>
+            </g>
+        </g>
+    </g>
+</svg>
